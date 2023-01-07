@@ -1,0 +1,1 @@
+このページでは，明治大学[森勢研究室](http://www.isc.meiji.ac.jp/~mmorise/lab/)にて[堀部貴紀](https://takanohori.github.io/)が行っている音声モーフィングの研究についてまとめています．

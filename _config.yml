@@ -1,0 +1,5 @@
+theme: minima
+google_analytics: UA-189500722-1
+title: Speech Morphing
+description: This is a summary of research about speech morphing.
+baseurl: "/speech-morphing"
