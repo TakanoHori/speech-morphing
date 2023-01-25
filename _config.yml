@@ -8,3 +8,4 @@ source: .
 layouts_dir: _layouts
 includes_dir: _includes
 show_excerpts: true
+full-width: true
