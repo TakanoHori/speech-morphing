@@ -22,27 +22,20 @@
         <td><b>Auto (proposed Method)</b></td>
     </tr>
     <tr>
-        <td><b>MF</b></td>
-        <td><audio src="data/m_jvs009vs040_t001.wav" controls></audio></td>
-        <td><audio src="data/a_jvs009vs040_t001.wav" controls></audio></td>
-    </tr>
-    <tr>
         <td><b>FF</b></td>
-        <td><audio src="data/m_jvs040vs082_t001.wav" controls></audio></td>
-        <td><audio src="data/a_jvs040vs082_t001.wav" controls></audio></td>
-    </tr>
-    <!-- <tr>
-        <td><audio src="data/m_jvs009vs040_t001.wav" controls=""></audio></td>
-        <td><audio src="data/a_jvs009vs040_t001.wav" controls=""></audio></td>
+        <td><audio src="data/m_jvs040vs082_t010.wav" controls></audio></td>
+        <td><audio src="data/a_jvs040vs082_t010.wav" controls></audio></td>
     </tr>
     <tr>
-        <td><audio src="data/m_jvs009vs040_t001.wav" controls=""></audio></td>
-        <td><audio src="data/a_jvs009vs040_t001.wav" controls=""></audio></td>
+        <td><b>MM</b></td>
+        <td><audio src="data/m_jvs009vs087_t010.wav" controls></audio></td>
+        <td><audio src="data/a_jvs009vs087_t010.wav" controls></audio></td>
     </tr>
     <tr>
-        <td><audio src="data/m_jvs009vs040_t001.wav" controls=""></audio></td>
-        <td><audio src="data/a_jvs009vs040_t001.wav" controls=""></audio></td>
-    </tr> -->
+        <td><b>MF</b></td>
+        <td><audio src="data/m_jvs082vs087_t010.wav" controls></audio></td>
+        <td><audio src="data/a_jvs082vs087_t010.wav" controls></audio></td>
+    </tr>
 </tbody>
 </table>
 
