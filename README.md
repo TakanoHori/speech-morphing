@@ -22,24 +22,24 @@
     </tr>
     <tr>
         <td><b>FF</b></td>
-        <td><audio src="data/m_jvs040vs082_t010.wav" controls></audio></td>
-        <td><audio src="data/a_jvs040vs082_t010.wav" controls></audio></td>
-        <td><audio src="data/m_jvs040vs082_t010.wav" controls></audio></td>
-        <td><audio src="data/a_jvs040vs082_t010.wav" controls></audio></td>
+        <td><audio src="data/morphRefjvs040Tarjvs082P2T010.wav" controls></audio></td>
+        <td><audio src="data/morphRefjvs040Tarjvs082P3T010.wav" controls></audio></td>
+        <td><audio src="data/morphRefjvs040Tarjvs082P5T010.wav" controls></audio></td>
+        <td><audio src="data/morphRefjvs040Tarjvs082P10T010.wav" controls></audio></td>
     </tr>
     <tr>
         <td><b>MM</b></td>
-        <td><audio src="data/m_jvs009vs087_t010.wav" controls></audio></td>
-        <td><audio src="data/a_jvs009vs087_t010.wav" controls></audio></td>
-        <td><audio src="data/m_jvs040vs082_t010.wav" controls></audio></td>
-        <td><audio src="data/a_jvs040vs082_t010.wav" controls></audio></td>
+        <td><audio src="data/morphRefjvs009Tarjvs087P2T010.wav" controls></audio></td>
+        <td><audio src="data/morphRefjvs009Tarjvs087P3T010.wav" controls></audio></td>
+        <td><audio src="data/morphRefjvs009Tarjvs087P5T010.wav" controls></audio></td>
+        <td><audio src="data/morphRefjvs009Tarjvs087P10T010.wav" controls></audio></td>
     </tr>
     <tr>
         <td><b>MF</b></td>
-        <td><audio src="data/m_jvs082vs087_t010.wav" controls></audio></td>
-        <td><audio src="data/m_jvs040vs082_t010.wav" controls></audio></td>
-        <td><audio src="data/a_jvs040vs082_t010.wav" controls></audio></td>
-        <td><audio src="data/a_jvs082vs087_t010.wav" controls></audio></td>
+        <td><audio src="data/morphRefjvs040Tarjvs087P2T010.wav" controls></audio></td>
+        <td><audio src="data/morphRefjvs040Tarjvs087P3T010.wav" controls></audio></td>
+        <td><audio src="data/morphRefjvs040Tarjvs087P5T010.wav" controls></audio></td>
+        <td><audio src="data/morphRefjvs040Tarjvs087P10T010.wav" controls></audio></td>
     </tr>
 </tbody>
 </table>
