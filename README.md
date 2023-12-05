@@ -8,7 +8,7 @@
 - **音素境界の対応点のみで合成されたモーフィング音声**をリファレンス，**各音素区間の対応点数が2点，3点，5点，10点のモーフィング音声**を音刺激として，より人間らしく自然であるかという基準で5段階評価した．
 - CMOSで評価したところ,時間軸方向での増加は品質改善には寄与せず，対応点数の増加に伴い，品質の低下が確認された．
 
-<img src="img/asj23s_spectrogram.png">
+<img src="img/asj2023s_spectrogram.png">
 
 - **MM/FF/MF**: 音声モーフィングに使用した音声の性別の組み合わせ
 <table>
@@ -22,24 +22,24 @@
     </tr>
     <tr>
         <td><b>FF</b></td>
-        <td><audio src="data/morphRefjvs040Tarjvs082P2T010.wav" controls></audio></td>
-        <td><audio src="data/morphRefjvs040Tarjvs082P3T010.wav" controls></audio></td>
-        <td><audio src="data/morphRefjvs040Tarjvs082P5T010.wav" controls></audio></td>
-        <td><audio src="data/morphRefjvs040Tarjvs082P10T010.wav" controls></audio></td>
+        <td><audio src="data/asj2023s/morphRefjvs040Tarjvs082P2T010.wav" controls></audio></td>
+        <td><audio src="data/asj2023s/morphRefjvs040Tarjvs082P3T010.wav" controls></audio></td>
+        <td><audio src="data/asj2023s/morphRefjvs040Tarjvs082P5T010.wav" controls></audio></td>
+        <td><audio src="data/asj2023s/morphRefjvs040Tarjvs082P10T010.wav" controls></audio></td>
     </tr>
     <tr>
         <td><b>MM</b></td>
-        <td><audio src="data/morphRefjvs009Tarjvs087P2T010.wav" controls></audio></td>
-        <td><audio src="data/morphRefjvs009Tarjvs087P3T010.wav" controls></audio></td>
-        <td><audio src="data/morphRefjvs009Tarjvs087P5T010.wav" controls></audio></td>
-        <td><audio src="data/morphRefjvs009Tarjvs087P10T010.wav" controls></audio></td>
+        <td><audio src="data/asj2023s/morphRefjvs009Tarjvs087P2T010.wav" controls></audio></td>
+        <td><audio src="data/asj2023s/morphRefjvs009Tarjvs087P3T010.wav" controls></audio></td>
+        <td><audio src="data/asj2023s/morphRefjvs009Tarjvs087P5T010.wav" controls></audio></td>
+        <td><audio src="data/asj2023s/morphRefjvs009Tarjvs087P10T010.wav" controls></audio></td>
     </tr>
     <tr>
         <td><b>MF</b></td>
-        <td><audio src="data/morphRefjvs040Tarjvs087P2T010.wav" controls></audio></td>
-        <td><audio src="data/morphRefjvs040Tarjvs087P3T010.wav" controls></audio></td>
-        <td><audio src="data/morphRefjvs040Tarjvs087P5T010.wav" controls></audio></td>
-        <td><audio src="data/morphRefjvs040Tarjvs087P10T010.wav" controls></audio></td>
+        <td><audio src="data/asj2023s/morphRefjvs040Tarjvs087P2T010.wav" controls></audio></td>
+        <td><audio src="data/asj2023s/morphRefjvs040Tarjvs087P3T010.wav" controls></audio></td>
+        <td><audio src="data/asj2023s/morphRefjvs040Tarjvs087P5T010.wav" controls></audio></td>
+        <td><audio src="data/asj2023s/morphRefjvs040Tarjvs087P10T010.wav" controls></audio></td>
     </tr>
 </tbody>
 </table>
@@ -53,7 +53,7 @@
 - 提案手法の妥当性を評価するため，対応点を手動設定して作成したモーフィング音声との自然性に関する主観評価実験を実施した．
 - 手動設定されたモーフィング音声と比較したところ，自動設定されたモーフィング音声でも40%程度は同等の品質であることが示唆された．
 
-<img src="img/asj22a_spectrogram.png">
+<img src="img/asj2022a_spectrogram.png">
 
 - **Manual**: 著者が morphingAligner (注1)を用いて手動で対応づけした音源
 - **Auto**: 提案手法による対応点の自動設定された音源
@@ -67,18 +67,18 @@
     </tr>
     <tr>
         <td><b>FF</b></td>
-        <td><audio src="data/m_jvs040vs082_t010.wav" controls></audio></td>
-        <td><audio src="data/a_jvs040vs082_t010.wav" controls></audio></td>
+        <td><audio src="data/asj2022a/m_jvs040vs082_t010.wav" controls></audio></td>
+        <td><audio src="data/asj2022a/a_jvs040vs082_t010.wav" controls></audio></td>
     </tr>
     <tr>
         <td><b>MM</b></td>
-        <td><audio src="data/m_jvs009vs087_t010.wav" controls></audio></td>
-        <td><audio src="data/a_jvs009vs087_t010.wav" controls></audio></td>
+        <td><audio src="data/asj2022a/m_jvs009vs087_t010.wav" controls></audio></td>
+        <td><audio src="data/asj2022a/a_jvs009vs087_t010.wav" controls></audio></td>
     </tr>
     <tr>
         <td><b>MF</b></td>
-        <td><audio src="data/m_jvs082vs087_t010.wav" controls></audio></td>
-        <td><audio src="data/a_jvs082vs087_t010.wav" controls></audio></td>
+        <td><audio src="data/asj2022a/m_jvs082vs087_t010.wav" controls></audio></td>
+        <td><audio src="data/asj2022a/a_jvs082vs087_t010.wav" controls></audio></td>
     </tr>
 </tbody>
 </table>
