@@ -1,5 +1,43 @@
 明治大学[森勢研究室](http://www.isc.meiji.ac.jp/~mmorise/lab/)にて[堀部貴紀](https://takanohori.github.io/)が行っている音声モーフィングの研究についてまとめています．
 
+## 音声モーフィングにおける自動対応付けの提案と品質評価
+**堀部貴紀**, 森勢将雅, 日本音響学会2024年春季研究発表会 (発表日：2024/03/07).
+
+### アブストラクト
+- 音声モーフィングにおける時間軸方向の対応付け**動的時間伸縮（Dynamic Time Warping）**と短時間パワーを用いた手法を提案する．
+- 主観評価の結果，手動による対応付け，提案手法，音素境界による従来手法の順に自然性が高いと判断された．
+  - 特に，従来手法との間に有意差が認められたことから，提案手法は対応付け手法として有効であるといえる．
+
+<table>
+<tbody align="center" width="40%">
+    <tr>
+        <td></td>
+        <td><b>提案手法</b></td>
+        <td><b>手動による対応付け</b></td>
+        <td><b>従来手法</b></td>
+    </tr>
+    <tr>
+        <td><b>FF</b></td>
+        <td><audio src="data/asj2024s/morphRefjvs040Tarjvs082Tx010D20231109T200628d.wav" controls></audio></td>
+        <td><audio src="data/asj2022a/m_jvs040vs082_t010.wav" controls></audio></td>
+        <td><audio src="data/asj2022a/a_jvs040vs082_t010.wav" controls></audio></td>
+    </tr>
+    <tr>
+        <td><b>MM</b></td>
+        <td><audio src="data/asj2024s/morphRefjvs009Tarjvs087Tx010D20231109T200254d.wav" controls></audio></td>
+        <td><audio src="data/asj2022a/m_jvs009vs087_t010.wav" controls></audio></td>
+        <td><audio src="data/asj2022a/a_jvs009vs087_t010.wav" controls></audio></td>
+    </tr>
+    <tr>
+        <td><b>MF</b></td>
+        <td><audio src="data/asj2024s/morphRefjvs082Tarjvs087Tx010D20231109T201412d.wav" controls></audio></td>
+        <td><audio src="data/asj2022a/m_jvs082vs087_t010.wav" controls></audio></td>
+        <td><audio src="data/asj2022a/a_jvs082vs087_t010.wav" controls></audio></td>
+    </tr>
+</tbody>
+</table>
+注: **MM/FF/MF**: 音声モーフィングに使用した音声の性別の組み合わせ
+
 ## 音声モーフィングにおける時間軸方向の対応点数が品質に与える影響  
 **堀部貴紀**, 森勢将雅, 河原英紀, 日本音響学会2023年春季研究発表会 (発表日：2023/03/17). [[発表資料](https://takanohori.github.io/posters/asj2023s_poster_published.pdf)]
 
